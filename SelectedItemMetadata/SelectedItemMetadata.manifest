@@ -1,0 +1,13 @@
+{
+    "autodeskProduct": "Fusion360",
+    "type": "addin",
+    "id": "5330a346-d61c-470b-95a2-ca7ec332d17d",
+    "author": "SelectedItemMetadata contributors",
+    "description": {
+        "": "Adds metadata about the selected item to Fusion's lower-right status readout."
+    },
+    "version": "0.1.0",
+    "runOnStartup": false,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

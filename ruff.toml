@@ -1,0 +1,11 @@
+# Ruff configuration — the same rule set as ConstraintLens.
+#
+# E4/E7/E9/F only, named explicitly so a ruff upgrade cannot widen what is
+# enforced. BLE001 (blind-except) and S110 (try-except-pass) must stay off:
+# guarding Fusion API access is deliberate here, because an exception escaping
+# a Fusion event handler can deactivate the add-in.
+
+target-version = "py311"
+
+[lint]
+select = ["E4", "E7", "E9", "F"]

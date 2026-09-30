@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Ruff / linter caches
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Debug config Fusion writes next to every script or add-in it runs
+.vscode/
